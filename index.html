@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="seachbar">
+        <input type="text" id="city_name" placeholder="Enter city name">
+        <button id="search">Search</button>
+        </div>
+        <div class="invalid">
+            <h2>Invalid city name</h2>
+            <img src="404.png" alt="" height="300px" width = "300px">
+        </div>
+        <div class="container2">
+            <div class="weather-temp">
+                <img src="cloud.png" alt="" height="0px" class="weather-img" width = "0px">
+               
+            </div>
+            <div class="humidity-wind_speed">
+                <hr>
+                <div class="temprature" style="color: rgb(57, 82, 97);">
+                    
+                     <h4 id="temp">10°C</h4>
+                     <h4 class="description">light rain</h4>
+                     
+                </div>
+                <hr>
+                <div class="humidity" style="color: rgb(135, 93, 174);">
+                    <h4 class="humidity-value">45%</h4>
+                    <h4>Humidity</h4>
+                    
+                </div>
+                <hr>
+                <div class="wind-speed" style="color: rgb(119, 93, 59);">
+                    <h4 class="wind-speed-value">120Km/H</h4>
+                    <h4>Wind Speed</h4>
+                    
+                </div>
+                <hr>
+        </div>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
